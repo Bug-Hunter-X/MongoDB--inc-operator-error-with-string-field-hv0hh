@@ -1,0 +1,1 @@
+This repository demonstrates a common error in MongoDB when using the `$inc` operator.  The `$inc` operator is designed to increment numeric fields. Attempting to increment a string field will result in an error. The `bug.js` file showcases the erroneous code, while `bugSolution.js` provides the corrected implementation.
